@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Drum Kit</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+</head>
+
+<body>
+
+  <h1 id="title">Drum 🥁 Kit</h1>
+  <div class="set">
+    <button class="w drum" onclick="audio.play();">w</button>
+    <button class="a drum" onclick="aud2.play();">a</button>
+    <button class="s drum" onclick="aud3.play();">s</button>
+    <button class="d drum" onclick="aud4.play();">d</button>
+    <button class="j drum" onclick="aud5.play();">j</button>
+    <button class="k drum" onclick="aud6.play();">k</button>
+    <button class="l drum" onclick="aud7 .play();">l</button>
+  </div>
+  <script src="index.js"></script>
+  <script type = "text/javascript">
+    const audio = new Audio();
+    audio.src="./sounds/crash.mp3"
+  </script>
+  <script type="text/javascript">
+    const aud2 = new Audio()
+    aud2.src="./sounds/kick-bass.mp3"
+  </script>
+  <script type = "text/javascript">
+    const aud3 = new Audio();
+    aud3.src="./sounds/snare.mp3"
+  </script>
+  <script type="text/javascript">
+    const aud4 = new Audio()
+    aud4.src="./sounds/tom-1.mp3"
+  </script>
+  <script type="text/javascript">
+    const aud5 = new Audio()
+    aud5.src="./sounds/tom-2.mp3"
+  </script>
+  <script type="text/javascript">
+    const aud6 = new Audio()
+    aud6.src="./sounds/tom-3.mp3"
+  </script>
+  <script type="text/javascript">
+    const aud7 = new Audio()
+    aud7.src="./sounds/tom-4.mp3"
+  </script>
+
+</body>
+
+</html>

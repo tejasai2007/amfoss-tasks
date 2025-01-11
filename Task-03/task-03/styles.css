@@ -1,0 +1,91 @@
+body {
+  text-align: center;
+  background-color: #68ba75;
+}
+
+h1 {
+  font-size: 5rem;
+  color: #267e9c;
+  text-shadow: 4px 0 #1e4b5b;
+  font-family : "Audiowide" , sans-serif;
+
+}
+
+.w {
+  background-color: #f1e482;
+  width: 150px;
+  height: 150px;
+}
+
+.a {
+  background-color: #f7e030;
+  width: 150px;
+  height: 150px;
+}
+
+.s {
+  background-color:#cdb500;
+  width: 150px;
+  height: 150px;
+}
+
+.d {
+  background-color: #aa9c31;
+  width: 150px;
+  height: 150px;
+}
+
+.j {
+  background-color: #7b6c00;
+  width: 150px;
+  height: 150px;
+
+}
+
+.k {
+  background-color: #544b05;
+  width: 150px;
+  height: 150px;
+
+}
+
+.l {
+  background-color: #353116;
+  width: 150px;
+  height: 150px;
+}
+
+.set {
+  margin: 10% auto;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.pressed {
+  box-shadow: 10px 10px 10px 0 #68ba75;
+  opacity: 0.75;
+}
+
+.red {
+  color: red;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #404B69;
+  font-size: 5rem;
+  line-height: 2;
+  font-weight: 900;
+  font-family : "Audiowide" , sans-serif;
+  color: #6e000078;
+  text-shadow: 3px 0 #ac76768b;
+  border-radius: 30px;
+  display: inline-block;
+  text-align: center;
+  margin: 10px;
+  box-shadow: 10px 10px 10px 0 #00000099;
+
+}
