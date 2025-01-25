@@ -1,0 +1,40 @@
+body {
+    width: 250px;
+    font-family: Arial, sans-serif;
+    padding: 10px;
+    
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  #city {
+    width: 100%;
+    padding: 15px;
+    margin: 10px 0;
+  }
+  
+  button {
+    width: 100%;
+    padding: 15px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #45a049;
+  }
+  
+  #weather-info {
+    margin-top: 40%;
+    text-align: center;
+  }
+  
+  .weather {
+    font-size: 40%;
+    margin-top: 10px;
+  }
+  
