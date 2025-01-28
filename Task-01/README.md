@@ -11,3 +11,6 @@ the list of the commands i used is:
 9. git status
 10. git commit -m""
 11. git push
+12. git log
+13. cp
+14. git branch
